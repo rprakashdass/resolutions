@@ -79,14 +79,14 @@ const Contacts = () => {
 
             {/* Footer Section */}
             <div className="bottom-0 flex justify-center items-center p-5 w-full">
-                <p className="inline-flex flex-row items-center gap-3 text-center text-white">
+                <p className="inline-flex flex-row items-center gap-3 text-center text-black">
                     For more updates, follow Rotaract SIET:
                     <a
                         href="https://instagram.com/rotaractsiet"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Instagram page of Rotaract SIET"
-                        className="text-white hover:text-gray-300 underline underline-offset-2"
+                        className="hover:text-gray-300 underline underline-offset-2"
                     >
                         Instagram
                         {/* <FaInstagram size={30} /> */}

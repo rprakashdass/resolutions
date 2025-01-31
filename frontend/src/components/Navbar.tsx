@@ -13,18 +13,20 @@ const Navbar = () => {
     }, [token, navigate]);
 
     return (
-        <div className="flex justify-center gap-4 bg-[#f7f1de] shadow-lg p-2 text-xl text-black">
-            <a className="hover:text-[#A2A9D3] cursor-pointer">
-                History
-            </a>
-            <a href="#contact" className="hover:text-[#A2A9D3] cursor-pointer">
-                Contact
-            </a>
-            {token && (
-                <span className="hover:text-[#A2A9D3] cursor-pointer">
-                    <Logout />
-                </span>
-            )}
+        <div className=" bg-[#f7f1de] shadow-lg p-2">
+            <div className="flex justify-end gap-4 me-5 text-xl text-black">
+                {/* <a className="hover:text-[#A2A9D3] cursor-pointer">
+                    History
+                </a> */}
+                <a href="#contact" className="hover:text-[#A2A9D3] cursor-pointer">
+                    Contact
+                </a>
+                {token && (
+                    <span className="hover:text-[#A2A9D3] cursor-pointer">
+                        <Logout />
+                    </span>
+                )}
+            </div>
         </div>
     );
 }
