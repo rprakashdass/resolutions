@@ -61,7 +61,7 @@ const Contacts = () => {
                     <div>
                         <p className="font-semibold">Event Support:</p>
                         <a href="tel:+919597915158" className="text-blue-600 hover:text-blue-400 underline">
-                            Raga Shruthi,
+                            Raga Shuruthi,
                         </a>
                     </div>
                 </div>
