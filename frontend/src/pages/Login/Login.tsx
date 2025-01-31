@@ -19,21 +19,22 @@ const Login: React.FC = () => {
             navigate("/");
         } catch (error) {
             alert("Login failed, please enter correct credentials!");
-            console.log(error)
+            console.log(error);
         }
     };
 
     return (
-        <div
-            className="flex justify-center items-center bg-cover bg-center w-screen h-screen">
+        <div className="flex justify-center items-center bg-cover bg-center w-screen h-screen bg-gradient-to-r from-green-400 to-blue-500">
             <form
                 onSubmit={handleSubmit}
-                className="flex flex-col gap-4 bg-white bg-opacity-70 shadow-lg p-6 rounded-lg w-full max-w-sm text-center"
+                className="flex flex-col gap-6 bg-white bg-opacity-80 shadow-lg p-8 rounded-xl w-full max-w-md"
             >
-                <span className="flex flex-col gap-2 w-full">
+                <h2 className="text-3xl font-bold text-center text-green-700 mb-4">Log In</h2>
+
+                <div className="flex flex-col gap-4">
                     <label
                         htmlFor="username"
-                        className="flex justify-start font-semibold text-green-700"
+                        className="font-semibold text-green-700"
                     >
                         Username
                     </label>
@@ -43,13 +44,14 @@ const Login: React.FC = () => {
                         onChange={(e) => setUsername(e.target.value)}
                         value={username}
                         name="username"
-                        className="bg-white bg-opacity-80 p-4 rounded-lg w-full focus:outline-green-500 outline-gray-700"
+                        className="bg-white bg-opacity-90 p-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition-all"
                     />
-                </span>
-                <span className="flex flex-col gap-2 w-full">
+                </div>
+
+                <div className="flex flex-col gap-4">
                     <label
                         htmlFor="password"
-                        className="flex justify-start font-semibold text-green-700"
+                        className="font-semibold text-green-700"
                     >
                         Password
                     </label>
@@ -59,26 +61,32 @@ const Login: React.FC = () => {
                         name="password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                        className="bg-white bg-opacity-80 p-4 rounded-lg w-full focus:outline-green-500 outline-gray-700"
+                        className="bg-white bg-opacity-90 p-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition-all"
                     />
-                </span>
-                <span className="text-gray-700">
-                    <Link to="/forgot-password" className="text-green-800">
+                </div>
+
+                <div className="flex justify-between items-center text-sm">
+                    <Link to="/forgot-password" className="text-green-700 hover:text-green-500">
                         Forgot password?
                     </Link>
-                </span>
+                </div>
+
                 <button
                     type="submit"
-                    className="flex justify-center items-center bg-gray-700 hover:bg-green-500 p-4 rounded-full w-full font-semibold text-gray-100 text-sm hover:text-gray-700 transition-all cursor-pointer"
+                    className="bg-green-700 hover:bg-green-600 p-4 rounded-full text-white font-semibold text-sm transition-all transform hover:scale-105"
                 >
                     Log In
                 </button>
-                <span className="text-gray-900">
-                    Haven't Joined the contest ?{" "}
-                    <a href="https://instagram.com/rotaractsiet" className="text-green-800">
+
+                <div className="text-center text-gray-700 mt-4">
+                    <span className="text-sm">Haven't Joined the contest? </span>
+                    <a
+                        href="https://instagram.com/rotaractsiet"
+                        className="text-green-700 hover:text-green-500"
+                    >
                         Contact Rotaract SIET
                     </a>
-                </span>
+                </div>
             </form>
         </div>
     );
