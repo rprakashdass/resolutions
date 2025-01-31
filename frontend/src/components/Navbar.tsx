@@ -14,7 +14,7 @@ const Navbar = () => {
     }, [token, navigate]);
 
     return (
-        <nav className="bg-gradient-to-r from-purple-600 to-indigo-600 shadow-lg p-4 fixed top-0 w-full z-50">
+        <nav className="bg-gradient-to-r from-purple-600 to-indigo-600 shadow-lg h-20 p-4 fixed top-0 w-full z-50">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo / Title */}
                 <h1 className="text-white text-2xl font-semibold">New Year New Me!!</h1>
