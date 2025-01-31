@@ -4,8 +4,8 @@ const tasks = [
   {
     day: "Day 1",
     tasks: [
-      { title: "Do 15 minutes exercises like Yoga, Meditation etc...", isChecked: true, proof: [] },
-      { title: "Do not eat junk food Today", isChecked: true, proof: [] },
+      { title: "Wake up early morning", isChecked: true, proof: [] },
+      { title: "Sleep early", isChecked: true, proof: [] },
     ],
   },
   {
