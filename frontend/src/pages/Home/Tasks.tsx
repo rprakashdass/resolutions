@@ -4,17 +4,17 @@ const tasks = [
   {
     day: "Day 1",
     tasks: [
-      { title: "Do 15 minutes exercises like Yoga, Meditation etc...", isChecked: false, proof: [] },
-      { title: "Do not eat junk food Today", isChecked: false, proof: [] },
+      { title: "Do 15 minutes exercises like Yoga, Meditation etc...", isChecked: true, proof: [] },
+      { title: "Do not eat junk food Today", isChecked: true, proof: [] },
     ],
   },
-  // {
-  //   day: "Day 2",
-  //   tasks: [
-  //     { title: "Run for a mile", isChecked: true, proof: [] },
-  //     { title: "Have breakfast", isChecked: true, proof: [] },
-  //   ],
-  // },
+  {
+    day: "Day 2",
+    tasks: [
+      { title: "Run for a mile", isChecked: true, proof: [] },
+      { title: "Have breakfast", isChecked: true, proof: [] },
+    ],
+  },
 ];
 
 const Tasks = () => {
