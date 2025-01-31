@@ -3,95 +3,106 @@
 
 const Contacts = () => {
     return (
-        <div id="contact" className="flex flex-col justify-between bg-[#f7f1de] text-black">
+        <div id="contact" className="bg-[#f7f1de] text-black">
+            {/* Rotaract Club Section */}
+            <div className="px-6 py-8 md:py-12 text-center">
+                <h2 className="font-bold text-2xl md:text-3xl text-gray-800">
+                    Proudly Supported by the Rotaract Club of SIET
+                </h2>
+                <p className="mt-2 text-lg text-gray-600">
+                    Connecting communities, fostering innovation, and building a better tomorrow.
+                </p>
+                <p className="mt-2 text-md text-gray-600">
+                    For any campus-based events or support, feel free to reach out to us!
+                </p>
 
-            {/* Rotaract Club Emphasis Section */}
-            <div className="px-5 py-7">
-                <div className="mb-5 text-center">
-                    <h2 className="font-bold text-2xl">
-                        Proudly Supported by the Rotaract Club of SIET
-                    </h2>
-                    <p>Connecting communities, fostering innovation, and building a better tomorrow.</p>
-                    <p className="mt-2">
-                        For any campus-based events or support, feel free to reach out to us!
-                    </p>
-                </div>
-                <div className="flex justify-center items-center gap-5">
+                {/* Social Links */}
+                <div className="flex justify-center items-center gap-6 mt-6">
                     <a
                         href="https://instagram.com/rotaractsiet"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Rotaract SIET Instagram"
-                        className="text-2xl text-white hover:text-gray-300"
+                        className="hover:scale-110 transition-transform duration-200"
                     >
-                        {/* <FaInstagram size={30} /> */}
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/800px-Instagram_icon.png"
+                            alt="Instagram Icon"
+                            className="w-10 h-10"
+                        />
                     </a>
                     <a
                         href="mailto:rotaractsiet2425@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Email Rotaract SIET"
-                        className="text-2xl text-white hover:text-gray-300"
+                        className="hover:scale-110 transition-transform duration-200"
                     >
-                        {/* <SiGmail size={30} /> */}
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Gmail_logo_2013.svg"
+                            alt="Gmail Icon"
+                            className="w-10 h-10"
+                        />
                     </a>
                 </div>
             </div>
 
-            {/* Header Section */}
-            <div className='flex flex-col justify-center items-center gap-5 px-5 py-10'>
-                <h1 className='font-bold text-3xl text-center'>Contact</h1>
-                <div className="flex flex-col items-center gap-3 text-md">
-                    <div className="text-center">
+            {/* Contact Section */}
+            <div className="flex flex-col justify-center items-center gap-6 px-6 py-10 text-center">
+                <h1 className="font-bold text-3xl text-gray-800">Contact</h1>
+
+                <div className="grid gap-6 text-lg text-gray-600 md:grid-cols-2">
+                    <div>
                         <p className="font-semibold">Technical Support:</p>
-                        <a
-                            href="tel:+917010047730"
-                            className="hover:text-blue-300 underline"
-                        >
+                        <a href="tel:+917010047730" className="text-blue-600 hover:text-blue-400 underline">
                             Prakash Dass R, +91 70100 47730
                         </a>
                     </div>
-                    <div className="text-center">
+                    <div>
                         <p className="font-semibold">Event Support:</p>
-                        <a
-                            href="tel:+919597915158"
-                            className="hover:text-blue-300 underline"
-                        >
-                            AAAAAAAAAA, +99 99999999999
+                        <a href="tel:+919597915158" className="text-blue-600 hover:text-blue-400 underline">
+                            Raga Shruthi,
                         </a>
                     </div>
                 </div>
-                <div className="text-center">
-                    <h1>
+
+                <div className="mt-6 text-md text-gray-600">
+                    <p>
                         Created with ❤️ by{' '}
                         <a
-                            className="hover:text-blue-300 underline"
+                            className="text-blue-600 hover:text-blue-400 underline"
                             href="https://www.rprakashdass.in"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             Prakash Dass R
-                        </a>{' '}
-                        || All Avenue Chair, Rotaract SIET
-                    </h1>
+                        </a>
+                        {' '} || All Avenue Chair, Rotaract SIET
+                    </p>
                 </div>
             </div>
 
-            {/* Footer Section */}
-            <div className="bottom-0 flex justify-center items-center p-5 w-full">
-                <p className="inline-flex flex-row items-center gap-3 text-center text-black">
-                    For more updates, follow Rotaract SIET:
+            {/* Footer */}
+            <div className="bg-[#f7f1de] py-6">
+                <div className="flex flex-col md:flex-row justify-center items-center gap-4 text-center">
+                    <p className="text-lg text-gray-600">
+                        For more updates, follow Rotaract SIET:
+                    </p>
                     <a
                         href="https://instagram.com/rotaractsiet"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Instagram page of Rotaract SIET"
-                        className="hover:text-gray-300 underline underline-offset-2"
+                        className="flex items-center gap-2 text-lg text-blue-600 hover:text-blue-400 transition-all"
                     >
                         Instagram
-                        {/* <FaInstagram size={30} /> */}
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/800px-Instagram_icon.png"
+                            alt="Instagram Icon"
+                            className="w-6 h-6"
+                        />
                     </a>
-                </p>
+                </div>
             </div>
         </div>
     );
