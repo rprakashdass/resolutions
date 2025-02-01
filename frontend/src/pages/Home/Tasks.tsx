@@ -4,8 +4,8 @@ const tasks = [
   {
     day: "Day 1",
     tasks: [
-      { title: "Do 15 minutes exercise like Yoga, Meditation etc.", isChecked: false, proof: [] },
-      { title: "Do not eat junk food today", isChecked: false, proof: [] },
+      { title: "Move & Breathe - Dedicate 20 minutes today to get your body active, it can be any kind of movement like yoga, medication, stretching, or even light workout.", isChecked: false, proof: [] },
+      { title: "Fuel your body: Say NO to Junk food today, cut your craving and save your body.", isChecked: false, proof: [] },
     ],
   },
   // {
