@@ -54,14 +54,26 @@ const Contacts = () => {
                 <div className="grid gap-6 text-lg text-gray-600 md:grid-cols-2">
                     <div>
                         <p className="font-semibold">Technical Support:</p>
-                        <a href="tel:+917010047730" className="text-blue-600 hover:text-blue-400 underline">
-                            Prakash Dass R, +91 70100 47730
+                        <a href="tel:+917010047730" className="text-black-600 hover:text-blue-400 ">
+                            Rtr. Prakash Dass, +91 70100 47730
+
+                        </a>
+                        <br />
+                        <a href="tel:+917010047730" className="text-black-600 hover:text-blue-400 ">
+                         Rtr. Yuvan Krishna, +91 6381667303
+
                         </a>
                     </div>
                     <div>
                         <p className="font-semibold">Event Support:</p>
-                        <a href="tel:+919597915158" className="text-blue-600 hover:text-blue-400 underline">
-                            Raga Shuruthi,
+                        <a href="tel:+919597915158" className="text-black-600 hover:text-blue-400 ">
+                            Rtr. Subhiksha, 9943140800
+                            
+                        </a>
+                       <br />
+                        <a href="tel:+919597915158" className="text-black-600 hover:text-blue-400 ">
+                        Rtr. Raga Shruthi,6383957601
+                            
                         </a>
                     </div>
                 </div>
