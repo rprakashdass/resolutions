@@ -86,6 +86,12 @@ const Login: React.FC = () => {
                     >
                         Contact Rotaract SIET
                     </a>
+                    <p className="text-gray-700">
+                                        New User?{" "}
+                                        <Link to="/register" className="text-green-700 font-semibold hover:underline">
+                                            Register here
+                                        </Link>
+                                    </p>
                 </div>
             </form>
         </div>
