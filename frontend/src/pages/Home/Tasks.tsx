@@ -8,13 +8,13 @@ const tasks = [
       { title: "Fuel your body: Say NO to Junk food today, cut your craving and save your body.", isChecked: false, proof: [] },
     ],
   },
-  // {
-  //   day: "Day 2",
-  //   tasks: [
-  //     { title: "Run for a mile", isChecked: true, proof: [] },
-  //     { title: "Have breakfast", isChecked: true, proof: [] },
-  //   ],
-  // },
+  {
+    day: "Day 2",
+    tasks: [
+      { title: "Wake up 30 minutes early before your regular wake up time.", isChecked: false, proof: [] },
+      { title: "Have a SILENT time with yourself without any gadgets.", isChecked: false, proof: [] },
+    ],
+  },
 ];
 
 const Tasks = () => {
