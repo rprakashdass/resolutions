@@ -15,6 +15,20 @@ const tasks = [
       { title: "Have a SILENT time with yourself without any gadgets.", isChecked: false, proof: [] },
     ],
   },
+  {
+    day: "Day 3",
+    tasks: [
+      { title: "1. Drink minimum of 3 liters of water to stay hydrated.", isChecked: false, proof: [] },
+      { title: "2. Follow no sugar diet & prioritize high-protein foods.", isChecked: false, proof: [] },
+    ],
+  },
+  {
+    day: "Day 4",
+    tasks: [
+      { title: "1. Start journaling to track your progress and thoughts.", isChecked: false, proof: [] },
+      { title: "2. Open setting is your phone, click on Digital Wellbeing and set time for social media apps.", isChecked: false, proof: [] },
+    ],
+  },
 ];
 
 const Tasks = () => {
