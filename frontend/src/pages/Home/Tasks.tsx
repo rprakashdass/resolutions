@@ -29,6 +29,13 @@ const tasks = [
       { title: "2. Open setting is your phone, click on Digital Wellbeing and set time for social media apps.", isChecked: false, proof: [] },
     ],
   },
+  {
+    day: "Day 5",
+    tasks: [
+      { title: "1. Take a atleast 5-minute cold shower to boost resilience.", isChecked: false, proof: [] },
+      { title: "2. Walk 7,000 steps throughout the day.", isChecked: false, proof: [] },
+    ],
+  },
 ];
 
 const Tasks = () => {
