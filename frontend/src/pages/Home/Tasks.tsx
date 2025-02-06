@@ -36,6 +36,13 @@ const tasks = [
       { title: "2. Walk 7,000 steps throughout the day.", isChecked: false, proof: [] },
     ],
   },
+   {
+    day: "Day 6",
+    tasks: [
+      { title: "1. Work without distractions for 40 minutes (no phone, no interruptions).", isChecked: false, proof: [] },
+      { title: "2. Practice deep breathing exercises for mental clarity.", isChecked: false, proof: [] },
+    ],
+  },
 ];
 
 const Tasks = () => {
