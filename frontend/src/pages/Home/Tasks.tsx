@@ -43,6 +43,13 @@ const tasks = [
       { title: "2. Practice deep breathing exercises for mental clarity.", isChecked: false, proof: [] },
     ],
   },
+  {
+    day: "Day 7",
+    tasks: [
+      { title: "1. Drink at least 3 liters of water to stay hydrated.", isChecked: false, proof: [] },
+      { title: "2. Do mobility exercises for 15 minutes to improve flexibility.", isChecked: false, proof: [] },
+    ],
+  },
 ];
 
 const Tasks = () => {
