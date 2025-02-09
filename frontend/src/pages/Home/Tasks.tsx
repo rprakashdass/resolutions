@@ -50,6 +50,20 @@ const tasks = [
       { title: "2. Do mobility exercises for 15 minutes to improve flexibility.", isChecked: false, proof: [] },
     ],
   },
+  {
+    day: "Day 8",
+    tasks: [
+      { title: "1. Set tough, actionable goals and break them into small steps.", isChecked: false, proof: [] },
+      { title: "2. Do an outdoor activity (hiking, jogging, cycling).", isChecked: false, proof: [] },
+    ],
+  },
+  {
+    day: "Day 9",
+    tasks: [
+      { title: "1. No complaining today – take full responsibility for everything.", isChecked: false, proof: [] },
+      { title: "2. Strength training (20 min workout focused on bodyweight or weights).", isChecked: false, proof: [] },
+    ],
+  },
 ];
 
 const Tasks = () => {
