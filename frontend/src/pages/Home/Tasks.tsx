@@ -64,6 +64,13 @@ const tasks = [
       { title: "2. Strength training (20 min workout focused on bodyweight or weights).", isChecked: false, proof: [] },
     ],
   },
+  {
+    day: "Day 10",
+    tasks: [
+      { title: "1. Intense workout (Cardio + Breathwork for endurance).", isChecked: false, proof: [] },
+      { title: "2. Practice gratitude – write 5 things you're grateful for.", isChecked: false, proof: [] },
+    ],
+  },
 ];
 
 const Tasks = () => {
