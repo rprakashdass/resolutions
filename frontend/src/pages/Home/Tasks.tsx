@@ -79,13 +79,13 @@ const tasks = [
       { title: "2. 2. Take 5 deep breaths before bed to calm your mind.", isChecked: false, proof: [] },
     ],
   },
-  // {
-  //   day: "Day 12",
-  //   tasks: [
-  //     { title: "1. Drink at least 8 glasses of water throughout the day.", isChecked: false, proof: [] },
-  //     { title: "2. Take a 10-minute walk outside during your lunch break.", isChecked: false, proof: [] },
-  //   ],
-  // },
+  {
+    day: "Day 12",
+    tasks: [
+      { title: "1. Drink at least 8 glasses of water throughout the day.", isChecked: false, proof: [] },
+      { title: "2. Take a 10-minute walk outside during your lunch break.", isChecked: false, proof: [] },
+    ],
+  },
   // {
   //   day: "Day 13",
   //   tasks: [
