@@ -86,13 +86,13 @@ const tasks = [
       { title: "2. Take a 10-minute walk outside during your lunch break.", isChecked: false, proof: [] },
     ],
   },
-  // {
-  //   day: "Day 13",
-  //   tasks: [
-  //     { title: "1. Practice a 5-minute morning meditation session.", isChecked: false, proof: [] },
-  //     { title: "2. Write down 3 positive affirmations about yourself.", isChecked: false, proof: [] },
-  //   ],
-  // },
+  {
+    day: "Day 13",
+    tasks: [
+      { title: "1. Practice a 5-minute morning meditation session.", isChecked: false, proof: [] },
+      { title: "2. Write down 3 positive affirmations about yourself.", isChecked: false, proof: [] },
+    ],
+  },
 ];
 
 const Tasks = () => {
