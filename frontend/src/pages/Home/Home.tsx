@@ -23,7 +23,7 @@ const TodaysMotivation = () => (
   <SectionCard>
     <h1 className="text-2xl font-bold mb-3 text-center">Today's Motivation</h1>
     <p className="text-gray-700 text-center">
-      Everything you've ever wanted is sitting on the other side of fear.
+      Just one small positive thought in the morning can change your whole day. ❤️
     </p>
   </SectionCard>
 );
