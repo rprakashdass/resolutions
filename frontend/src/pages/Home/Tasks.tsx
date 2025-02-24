@@ -23,6 +23,21 @@ const tasks = [
       { title: "2. Write down 5 things you're thankful for in your life right now.", isChecked: false, proof: [] },
     ],
   },
+   {
+    day: "Day 20 | 24-02-2025",
+    tasks: [
+      { title: "1. Take some time to reflect on your self-care journey and how it's impacted your life.", isChecked: false, proof: [] },
+      { title: "2. Write down 3 things you're committed to continuing in your self-care routine.", isChecked: false, proof: [] },
+    ],
+  },
+
+  // {
+  //   day: "Day 21 | 25-02-2025",
+  //   tasks: [
+  //     { title: "1. Celebrate your self-care journey and all that you've accomplished.", isChecked: false, proof: [] },
+  //     { title: "2. Write down 5 things you're excited to try or learn in the coming weeks.", isChecked: false, proof: [] },
+  //   ],
+  // },
 
   // {
   //   day: "Day 1",
