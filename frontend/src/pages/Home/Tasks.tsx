@@ -3,41 +3,41 @@ import { useState } from "react";
 const tasks = [
 
   {
-    day: "Day 17 | 21-02-2025",
+    day: "Day 17",
     tasks: [
       { title: "1. Take your phone and uninstall the apps which have not been used for days and anymore.", isChecked: false, proof: [] },
       { title: "2. Write a thank note for 3 persons who stood with you in your tough times.", isChecked: false, proof: [] },
     ],
   },
     {
-    day: "Day 18 | 22-02-2025",
+    day: "Day 18",
     tasks: [
       { title: "1. Take some time to connect with a friend or loved one.", isChecked: false, proof: [] },
       { title: "2. Write down 3 things you're looking forward to in the coming weeks.", isChecked: false, proof: [] },
     ],
   },
     {
-    day: "Day 19 | 23-02-2025",
+    day: "Day 19",
     tasks: [
       { title: "1. Practice a mindfulness exercise, like focusing on your breath.", isChecked: false, proof: [] },
       { title: "2. Write down 5 things you're thankful for in your life right now.", isChecked: false, proof: [] },
     ],
   },
    {
-    day: "Day 20 | 24-02-2025",
+    day: "Day 20",
     tasks: [
       { title: "1. Take some time to reflect on your self-care journey and how it's impacted your life.", isChecked: false, proof: [] },
       { title: "2. Write down 3 things you're committed to continuing in your self-care routine.", isChecked: false, proof: [] },
     ],
   },
 
-  // {
-  //   day: "Day 21 | 25-02-2025",
-  //   tasks: [
-  //     { title: "1. Celebrate your self-care journey and all that you've accomplished.", isChecked: false, proof: [] },
-  //     { title: "2. Write down 5 things you're excited to try or learn in the coming weeks.", isChecked: false, proof: [] },
-  //   ],
-  // },
+  {
+    day: "Day 21",
+    tasks: [
+      { title: "1. Celebrate your self-care journey and all that you've accomplished.", isChecked: false, proof: [] },
+      { title: "2. Write down 5 things you're excited to try or learn in the coming weeks.", isChecked: false, proof: [] },
+    ],
+  },
 
   // {
   //   day: "Day 1",
